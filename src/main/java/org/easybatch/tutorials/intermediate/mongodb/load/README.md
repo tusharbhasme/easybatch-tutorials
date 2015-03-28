@@ -16,7 +16,7 @@ This tutorial is an application that reads tweets from flat file and import them
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

@@ -16,7 +16,7 @@ The goal of the tutorial is to show how to write a custom record reader to read 
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

@@ -15,7 +15,7 @@ This tutorial is a unix-like pipeline application that operates on a list of twe
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

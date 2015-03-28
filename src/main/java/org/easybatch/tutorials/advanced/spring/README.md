@@ -15,7 +15,7 @@ This tutorial is a show case of how to configure Easy Batch using Spring framewo
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

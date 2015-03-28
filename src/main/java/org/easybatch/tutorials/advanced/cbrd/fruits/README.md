@@ -16,7 +16,7 @@ Fruits are processed in parallel using multiple queues.
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

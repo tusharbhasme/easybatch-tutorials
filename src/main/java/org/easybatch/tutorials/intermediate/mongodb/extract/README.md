@@ -16,7 +16,7 @@ This tutorial is an application that reads tweets from MongoDB collection and ex
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

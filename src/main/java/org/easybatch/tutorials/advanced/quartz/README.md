@@ -16,7 +16,7 @@ The goal is to show how to use `easybatch-quartz` module APIs.
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

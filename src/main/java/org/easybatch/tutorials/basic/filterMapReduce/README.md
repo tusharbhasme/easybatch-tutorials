@@ -15,7 +15,7 @@ This tutorial is a filter-map-reduce application that operates on a list of pers
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

@@ -15,7 +15,7 @@ This tutorial is a simple batch application that reads tweets from a flat file a
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

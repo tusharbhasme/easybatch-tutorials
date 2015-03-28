@@ -17,7 +17,7 @@ The `TweetSlowProcessor` simulates a long running processor to allow you to moni
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 

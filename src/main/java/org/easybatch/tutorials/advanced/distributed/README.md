@@ -16,7 +16,7 @@ This tutorial is a show case of how to implement a custom `RecordDispatcher` in 
 
 ### Using git
 
-`https://github.com/EasyBatch/easybatch-tutorials.git`
+`git clone https://github.com/EasyBatch/easybatch-tutorials.git`
 
 ### Downloading a zip file
 
