@@ -79,9 +79,7 @@ public class ParallelTutorialWithRecordDispatching {
         ExecutorService executorService = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
 
         // Submit workers to executor service
-        executorService.submit(masterEngine);
-        executorService.submit(workerEngine1);
-        executorService.submit(workerEngine2);
+        executorService.invokeAll(Arrays.asList(masterEngine, workerEngine1, workerEngine2));
 
         // Shutdown executor service
         executorService.shutdown();

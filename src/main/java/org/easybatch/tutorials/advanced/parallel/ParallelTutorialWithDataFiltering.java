@@ -31,9 +31,13 @@ import org.easybatch.core.filter.RecordNumberLowerThanFilter;
 import org.easybatch.core.impl.Engine;
 import org.easybatch.core.impl.EngineBuilder;
 import org.easybatch.flatfile.FlatFileRecordReader;
+import org.easybatch.tools.reporting.DefaultReportMerger;
+import org.easybatch.tools.reporting.ReportMerger;
 import org.easybatch.tutorials.basic.helloworld.TweetProcessor;
 
 import java.io.File;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -62,11 +66,15 @@ public class ParallelTutorialWithDataFiltering {
         //create a 2 threads pool to call worker engines in parallel
         ExecutorService executorService = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
 
-        Future<Report> report1 = executorService.submit(engine1);
-        Future<Report> report2 = executorService.submit(engine2);
+        List<Future<Report>> partialReports = executorService.invokeAll(Arrays.asList(engine1, engine2));
 
-        System.out.println("Report 1 = " + report1.get());
-        System.out.println("Report 2 = " + report2.get());
+        //merge partial reports into a global one
+        Report report1 = partialReports.get(0).get();
+        Report report2 = partialReports.get(1).get();
+
+        ReportMerger reportMerger = new DefaultReportMerger();
+        Report finalReport = reportMerger.mergerReports(report1, report2);
+        System.out.println(finalReport);
 
         executorService.shutdown();
 
