@@ -23,6 +23,7 @@ Here is the tutorials list:
 * [Key APIs][]: A walk through Key APIs to show you how to use them the right way
 * [Unix-like pipeline][]: A sample application to process data in pipeline the unix-way
 * [Filter-Map-Reduce][]: A filter-map-reduce example using Easy Batch
+* [Word Count][]: A word count example using Easy Batch
 
 ### Intermediate tutorials
 
@@ -47,6 +48,7 @@ Here is the tutorials list:
 [Key APIs]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/basic/keyapis
 [Unix-like pipeline]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/basic/pipeline
 [Filter-Map-Reduce]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/basic/filterMapReduce
+[Word Count]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/basic/wordcount
 [Loading data in a relational database]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/intermediate/load
 [Loading data in a NoSQL database]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/intermediate/mongodb/load
 [Extracting data from a NoSQL database]: https://github.com/EasyBatch/easybatch-tutorials/tree/master/src/main/java/org/easybatch/tutorials/intermediate/mongodb/extract
