@@ -33,7 +33,7 @@ import org.easybatch.core.reader.StringRecordReader;
  *
 * @author Mahmoud Ben Hassine (mahmoud@benhassine.fr)
 */
-public class Launcher {
+public class SingleEngineJmxTutorial {
 
     public static void main(String[] args) throws Exception {
 
